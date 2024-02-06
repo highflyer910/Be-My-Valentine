@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #FFBACD;
+    overflow: hidden;
+    font-family: "Bellota Text", sans-serif;
+  }
+
+  h1{
+    color: #CB0162;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  #container {
+    text-align: center;
+  }
+
+  #yesButton, #noButton {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.5s ease;
+  }
+
+  #yesButton {
+    background-color: #CB0162;  
+    color: white;
+  }
+
+  #noButton {
+    background-color: #074078; 
+    color: white;
+  }
+
+  #gifContainer {
+    width: 300px;
+    height: 300px;
+    display: none;
+    margin-top: 20px;
+  }
+
+  #cuteGif {
+    max-width: 100%;
+  }
