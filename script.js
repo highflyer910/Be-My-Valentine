@@ -12,7 +12,7 @@ function showCuteGif() {
 }
 
 function disableButtons() {
-    heading.innerHTML = 'YAY!♡';
+    heading.innerHTML = 'Yay!♡';
     yesButton.style.display = 'none';
     noButton.style.display = 'none';
 }
